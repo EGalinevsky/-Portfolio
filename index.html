@@ -18,38 +18,31 @@
                 <ul class="nav__list grid">
                     <li class="nav__item">
                         <a href="#home" class="nav__link">
-                                <img class="svg_nav" src="./img/img__icon/home.svg" alt="">
+                                <img class="nav__icon" src="./img/img__icon/home.svg" alt="">
                                 Home
                         </a>
                     </li>
                     <li class="nav__item">
                         <a href="#user" class="nav__link">
-                                <img class="svg_nav" src="./img/img__icon/user.svg" alt="">
+                                <img class="nav__icon" src="./img/img__icon/user.svg" alt="">
                                 User
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#file" class="nav__link">
-                                <img class="svg_nav" src="./img/img__icon/file.svg" alt="">
-                                File
+                        <a href="#skills" class="nav__link">
+                                <img class="nav__icon" src="./img/img__icon/file.svg" alt="">
+                                Skills
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#service" class="nav__link">
-                                <img class="svg_nav" src="./img/img__icon/briefcase.svg" alt="">
-                                Case
+                        <a href="#qualification" class="nav__link">
+                                <img class="nav__icon" src="./img/img__icon/briefcase.svg" alt="">
+                                Qualification
                         </a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#portfolio" class="nav__link">
-                                <img class="svg_nav" src="./img/img__icon/shuttle.svg" alt="">
-                                Portfolio
-                        </a>
-
                     </li>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
-                                <img class="svg_nav" src="./img/img__icon/send.svg" alt="">
+                                <img class="nav__icon" src="./img/img__icon/contact-form.svg" alt="">
                                 Contact me
                         </a>
                     </li>
@@ -58,6 +51,9 @@
             </div>
 
             <div class="nav__btns">
+                <!-- Theme change button -->
+                <img class="svg_nav change-theme" id="theme-button" src="./img/img__icon/day-and-night.svg" alt="">
+
                 <div class="nav__toggle" id="nav-toggle">
                     <img class="svg_nav" src="./img/img__icon/app.svg" alt="">
                 </div>
@@ -70,13 +66,13 @@
                 <div class="home__content grid">
                     <div class="home__social">
                         <a href="" target="_blank" class="home__social-icon">
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                            <img class="svg_nav home__icon" fill='brown' src="img/img__icon/icon/linkedin.svg" alt="">
                         </a>
                         <a href="" target="_blank" class="home__social-icon">
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                            <img class="svg_nav home__icon" src="img/img__icon/icon/telegram.svg" alt="">
                         </a>
                         <a href="" target="_blank" class="home__social-icon">
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                            <img class="svg_nav home__icon" src="img/img__icon/icon/github.svg" alt="">
                         </a>
                     </div>
 
@@ -99,7 +95,7 @@
                     </div>
                     <div class="home__data">
                         <h1 class="home_title">
-                            Hi, i'm Eugene Galinevsky
+                            Hi, i'm <br> Eugene Galinevsky
                         </h1>
                         <h3 class="home__subtitle">
                             Frontend developer
@@ -109,15 +105,15 @@
                         </p>
                         <a href="#contact" class="button button--flex">
                             Contact me
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                            <img class="svg_nav" src="img/img__icon/send.svg" alt="">
                         </a>
                     </div>               
                 </div>
                 <div class="home__scroll">
-                    <a href="#about" class="home__scroll-button button--flex">
-                        <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                    <a href="#user" class="home__scroll-button button--flex">
+                        <img class="svg_nav mouse" src="img/img__icon/icon/mouse.svg" alt="">
                         <span class="home__scroll-name">Scroll down<down></down></span>
-                        <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                        <img class="svg_nav" src="img/img__icon/icon/down-arrow.svg" alt="">
                     </a>
                 </div>      
             </div>
@@ -151,7 +147,7 @@
                     <div class="about__buttons">
                         <a download="" href="eugene-galinevsky-cv.pdf" class="button button--flex">
                             Download CV   
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                            <img class="svg_nav" src="img/img__icon/icon/download.svg" alt="">
                         </a>
                     </div>
                 </div>
@@ -167,16 +163,16 @@
 
             <div class="skills__container container grid">
                 <div>
-                    <div class="skills__content skills__close">
+                    <div class="skills__content skills__open">
                         <div class="skills__header">
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                            <img class="svg_nav skills__icon" src="img/img__icon/icon/brackets.svg" alt="">
                             <div>
                                 <h1 class="skills__titles">
                                     Frontend developer
                                 </h1>
                                 <span class="skills_subtitle">More than 4 years</span>
                             </div>
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">                            
+                            <img class="svg_nav skills__arrow" src="img/img__icon/icon/down-arrow-skills.svg" alt="">                            
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
@@ -232,17 +228,19 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>                    
+                </div>
+                <div>
                     <div class="skills__content skills__close">
                         <div class="skills__header">
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                            <img class="svg_nav skills__icon" src="img/img__icon/icon/web-development.svg" alt="">
                             <div>
                                 <h1 class="skills__titles">
                                     Backend developer
                                 </h1>
                                 <span class="skills_subtitle">More than 2 month</span>
                             </div>
-                            <img class="svg_nav" src="img/img__icon/close.svg" alt="">                            
+                            <img class="svg_nav skills__arrow" src="img/img__icon/icon/down-arrow-skills.svg" alt="">                            
                         </div>
                         <div class="skills__list grid">
                             <div class="skills__data">
@@ -300,9 +298,6 @@
                         </div>
                     </div>
                 </div>
-                <div>
-
-                </div>
             </div>
         </section>
         <section class="qualification section" id="qualification">
@@ -312,11 +307,11 @@
             <div class="qualification__container container">
                 <div class="qualification__tabs">
                     <div class="qualification__button button--flex qualification__active" data-target='#education'>
-                        <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                        <img class="svg_nav qualification__icon" src="img/img__icon/icon/open-book.svg" alt="">
                         Education
                     </div>
                     <div class="qualification__button button--flex" data-target='#work'>
-                        <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                        <img class="svg_nav qualification__icon" src="img/img__icon/icon/suitcase.svg" alt="">
                         Work
                     </div>
                 </div>
@@ -330,7 +325,7 @@
                                     Peru - University
                                 </span>
                                 <div class="qualification__calendar">
-                                    <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                                    <img class="svg_nav calendar__icon" src="img/img__icon/icon/calendar.svg" alt="">
                                     2009-2014
                                 </div>
                             </div>
@@ -354,7 +349,7 @@
                                     Peru - University
                                 </span>
                                 <div class="qualification__calendar">
-                                    <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                                    <img class="svg_nav calendar__icon" src="img/img__icon/icon/calendar.svg" alt="">
                                     2009-2014
                                 </div>
                             </div>                            
@@ -369,7 +364,7 @@
                                     Peru - University
                                 </span>
                                 <div class="qualification__calendar">
-                                    <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                                    <img class="svg_nav calendar__icon" src="img/img__icon/icon/calendar.svg" alt="">
                                     2009-2014
                                 </div>
                             </div>
@@ -392,7 +387,7 @@
                                     Peru - University
                                 </span>
                                 <div class="qualification__calendar">
-                                    <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                                    <img class="svg_nav calendar__icon" src="img/img__icon/icon/calendar.svg" alt="">
                                     2009-2014
                                 </div>
                             </div>                            
@@ -406,7 +401,7 @@
                                 <h3 class="qualification__title">Computer WORK 1</h3>
                                 <span class="qualification__subtitle">Peru - University</span>
                                 <div class="qualification__calendar">
-                                    <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                                    <img class="svg_nav calendar__icon" src="img/img__icon/icon/calendar.svg" alt="">
                                     2009-2014
                                 </div>
                             </div>
@@ -430,7 +425,7 @@
                                     Peru - University
                                 </span>
                                 <div class="qualification__calendar">
-                                    <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                                    <img class="svg_nav calendar__icon" src="img/img__icon/icon/calendar.svg" alt="">
                                     2009-2014
                                 </div>
                             </div>                           
@@ -445,7 +440,7 @@
                                     Peru - University
                                 </span>
                                 <div class="qualification__calendar">
-                                    <img class="svg_nav" src="img/img__icon/close.svg" alt="">
+                                    <img class="svg_nav calendar__icon" src="img/img__icon/icon/calendar.svg" alt="">
                                     2009-2014
                                 </div>
                             </div>
@@ -459,194 +454,34 @@
                 </div>
             </div>
         </section>
-        <section class="services section" id="service">
-            <h2 class="section__title">Service</h2>
-            <span class="section__subtitle">What i offer</span>
-
-            <div class="services__container container grid">
-                <!-- SERVICE1 -->
-                <div class="services__content">
-                    <div>
-                        <img class="svg_nav services__icon" src="img/img__icon/close.svg" alt="">
-                        <h3 class="services__title">Ui/Ux <br> Designer </h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <img class="svg_nav button__icon" src="img/img__icon/send.svg" alt="">
-                    </span>
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Ui/Ux <br> Designer </h4>
-                        <img class="svg_nav services__modal-close" src="img/img__icon/close.svg" alt="">
-
-                        <ul class="services__modal-services grid">
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I developer the user interface.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>Web page developer.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I create ux element interactions.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I position your company brand.</p>
-                            </li>
-                        </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- SERVICE2 -->
-                <div class="services__content">
-                    <div>
-                        <img class="svg_nav services__icon" src="img/img__icon/close.svg" alt="">
-                        <h3 class="services__title">Frontend <br> Developer </h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <img class="svg_nav button__icon" src="img/img__icon/send.svg" alt="">
-                    </span>
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Frontend <br> Developer </h4>
-                        <img class="svg_nav services__modal-close" src="img/img__icon/close.svg" alt="">
-
-                        <ul class="services__modal-services grid">
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I developer the user interface.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>Web page developer.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I create ux element interactions.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I position your company brand.</p>
-                            </li>
-                        </ul>
-                        </div>
-                    </div>
-                </div>
-                <!-- SERVICE3 -->
-                <div class="services__content">
-                    <div>
-                        <img class="svg_nav services__icon" src="img/img__icon/close.svg" alt="">
-                        <h3 class="services__title">Branding <br> Designer </h3>
-                    </div>
-                    <span class="button button--flex button--small button--link services__button">
-                        View More
-                        <img class="svg_nav button__icon" src="img/img__icon/send.svg" alt="">
-                    </span>
-                    <div class="services__modal">
-                        <div class="services__modal-content">
-                            <h4 class="services__modal-title">Branding <br> Designer </h4>
-                        <img class="svg_nav services__modal-close" src="img/img__icon/close.svg" alt="">
-
-                        <ul class="services__modal-services grid">
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I developer the user interface.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>Web page developer.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I create ux element interactions.</p>
-                            </li>
-                            <li class="services__modal-service">
-                                <img class="svg_nav services__modal-icon" src="img/img__icon/user.svg" alt="">
-                                <p>I position your company brand.</p>
-                            </li>
-                        </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="portfolio section" id="section">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Most recent work</span>
-
-            <div class="portfolio__container container swiper mySwiper">
-                <div class="swiper-wrapper">
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="img/portfolio1.jpg" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Modern Website</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions</p>
-                            <a href="" class="button button--flex button--small portfolio__button">Demo
-                                <img class="svg_nav button__icon" src="./img/img__icon/home.svg" alt="">                                
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="img/portfolio2.jpg" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Brand Design</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions</p>
-                            <a href="" class="button button--flex button--small portfolio__button">Demo
-                                <img class="svg_nav button__icon" src="./img/img__icon/home.svg" alt="">                                
-                            </a>
-                        </div>
-                    </div>
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="img/portfolio3.jpg" alt="" class="portfolio__img">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Onli Store</h3>
-                            <p class="portfolio__description">Website adaptable to all devices, with ui components and animated interactions</p>
-                            <a href="" class="button button--flex button--small portfolio__button">Demo
-                                <img class="svg_nav button__icon" src="./img/img__icon/home.svg" alt="">                                
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="swiper-button-next"></div>
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-pagination"></div>
-            </div>
-        </section>
         <section class="contact section" id="contact">
             <h2 class="section__title">Contact Me</h2>
             <span class="section__subtitle">Get in touch</span>
 
             <div class="contact__container container grid">
-                <div>
+                
                     <div class="contact__informatio">
-                        <img class="svg_nav contact__icon" src="./img/img__icon/home.svg" alt="">   
-                        <div>
+                        <img class="svg_nav contact__icon" src="./img/img__icon/icon/telephone.svg" alt="">   
+                        <div>                            
                             <h3 class="contact__title">Call me</h3>
-                            <span class="contact__subtitle">+375 (25) 534-58-92</span>
+                            <a class="contact__subtitle" href="tel:+375255345892"> +375 (25) 534-58-92</a>
                         </div>                     
                     </div>
                     <div class="contact__informatio">
-                        <img class="svg_nav contact__icon" src="./img/img__icon/home.svg" alt="">   
+                        <img class="svg_nav contact__icon" src="./img/img__icon/icon/mail.svg" alt="">   
                         <div>
                             <h3 class="contact__title">Email</h3>
-                            <span class="contact__subtitle">eugene.galinevsky@gmail.com</span>
+                            <span class="contact__subtitle">eugene.galinevsky@mail.ru</span>
                         </div>                     
                     </div>
                     <div class="contact__informatio">
-                        <img class="svg_nav contact__icon" src="./img/img__icon/home.svg" alt="">   
+                        <img class="svg_nav contact__icon" src="./img/img__icon/icon/pin.svg" alt="">   
                         <div>
                             <h3 class="contact__title">Location</h3>
                             <span class="contact__subtitle">Minsk</span>
                         </div>                     
                     </div>
-                </div>
+                
             </div>
         </section>
     </main>
@@ -657,33 +492,25 @@
                     <h1 class="footer__title">Eugene</h1>
                     <span class="footer__subtitle">Frontend developer</span>
                 </div>
-                <ul class="footer__links">
-                    <li>
-                        <a href="#services" class="footer__link">Services</a>
-                    </li>
-                    <li>
-                        <a href="#portfolio" class="footer__link">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#contact" class="footer__link">Contact me</a>
-                    </li>
-                </ul>
-
+                <p class="footer__subtitle">Thank you for watching till the end</p>
                 <div class="footer__socials">
                     <a href="" class="footer__social" target="_blank">
-                        <img class="svg_nav facebook" src="./img/img__icon/home.svg" alt="">                           
+                        <img class="svg_nav facebook" src="./img/img__icon/icon/facebook.svg" alt="">                           
                     </a>
                     <a href="" class="footer__social">
-                        <img class="svg_nav instagram" src="./img/img__icon/home.svg" alt="">  
+                        <img class="svg_nav instagram" src="./img/img__icon/icon/instagram.svg" alt="">  
                     </a>
                     <a href="" class="footer__social">
-                        <img class="svg_nav twitter" src="./img/img__icon/home.svg" alt="">   
+                        <img class="svg_nav twitter" src="./img/img__icon/icon/twitter.svg" alt="">   
                     </a>
                 </div>
             </div>
             <p class="footer__copy">&#169; Galinevsky. All right reserved</p>
         </div>
     </footer>
+    <a href="#home" class="scrollup" id="scroll-up">
+        <img class="svg_nav scrollup__icon" src="./img/img__icon/icon/up-arrow-angle.svg" alt="">
+    </a>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/app.js"></script>
 </body>
